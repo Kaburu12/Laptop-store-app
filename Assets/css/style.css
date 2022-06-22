@@ -8,3 +8,50 @@ body{
 	font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+
+nav #nav-container{
+	display: flex;
+}
+
+.nav-list{
+	display: flex;
+	list-style: none;
+}
+
+div ul li a{
+	padding-right: 130px;
+	text-decoration: none;
+	color: #000;
+	font-weight: 900px;
+}
+#logo{
+	padding-right: 100px;
+}
+
+ul li a:hover{
+	color: orangered;
+}
+
+header {
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    margin: 0;
+}
+
+h1{
+	color:orangered;
+	position: relative;
+	padding-top: 230px;
+	padding-left: 40px;
+}
+
+h3{
+	padding-left: 40px;
+	color: #fff;
+}
+
+h2{
+	text-align: center;
+}
