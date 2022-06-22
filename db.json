@@ -1,0 +1,84 @@
+{
+	"laptops": [
+	  {
+		"id": 1,
+		"name": "Lenovo ThinkPad Yoga 260 Convertible",
+		"description": "Laptop / 12.5 inch IPS FHD Touchscreen (1920x1080), Core i5-6300U, 256GB SSD, 8GB ram, Win 10",
+		"image_url": "https://i.ibb.co/wQ4G0w1/flatiron-brew.png",
+		"reviews": [
+		  "very sleek machine!!"
+		 
+		]
+	  },
+	  {
+		"id": 2,
+		"name": "Lenovo ThinkPad X131e Intel Core i3 ",
+		"description": "Lenovo ThinkPad X131e Intel Core i3  4GB DDR3 RAM, 320GB HDD 11.6 HD LED display ",
+		"image_url": "https://images.punkapi.com/v2/4.png",
+		"reviews": [
+		  "Affordable/Powerful and Reliable!",
+		  "Solid reliability against extreme environmental variables"
+		]
+	  },
+	  {
+		"id": 3,
+		"name": "HP - Spectre x360 2-in-1 (10th Gen 2020 edition)",
+		"description": "core i7 ,gaming machine 16gb ram ,1TB HDD + 256SSD,",
+		"image_url": "https://images.punkapi.com/v2/5.png",
+		"reviews": [
+		  "I find this laptop very fast,sleek and efficient!"
+		]
+	  },
+	  {
+		"id": 4,
+		"name": "HP OMEN X Gaming Laptop",
+		"description": "15 inch, 9th Gen intel core i7, 16gb ram, 256gb ssd 1tb hdd, 6gb dedicated Nvidia RTX 1050 Ti graphics, upto 3.5ghz, , Full hd(1080P) resolution, Keyboard backlight, Bang & Olufsen Speakers",
+		"image_url": "https://images.punkapi.com/v2/6.png",
+		"reviews": [
+		  "I've used it and this machine is a beast",
+		  "It's the best in gaming!!"
+		]
+	  },
+	  {
+		"id": 5,
+		"name": "Lenovo Yoga 11e",
+		"description": "11.6inch Touchscreen Convertible Ultrabook PC, Intel Quad Core Processor, 128GB Solid State Drive, 4GB DDR3 RAM, HD Webcam, LED, HDMI, Bluetooth, Windows 10 ",
+		"image_url": "https://images.punkapi.com/v2/7.png",
+		"reviews": [
+		  "very portable",
+		  "effecient and can be used anywhere!"
+		]
+	  },
+	  {
+		"id": 6,
+		"name": "Hp elitebook 840",
+		"description": "intel Core i5  (4cpu) 4GB RAM 500Gb HDD Backlit Keyboard Sim Slot ,Windows 10 pro + Basic softwares installed(Free)",
+		"image_url": "https://images.punkapi.com/v2/9.png",
+		"reviews": [
+		  "I used it ,it's stable",
+		  "very fast,slim & hard-body"
+		]
+	  },
+	  {
+		"id": 7,
+		"name": "HP EliteBook x360 1030 G2 ",
+		"description": "Multi-Touch 2-in-1 Intel Core i5-7200U 2.5 GHz  8GB 256GB SSD 13.3 FHD IPS Touchscreen,convertible ",
+		"image_url": "https://images.punkapi.com/v2/10.png",
+		"reviews": [
+		  "The outlook is so shinny",
+		  "flexible,light,slim"
+		]
+	  },
+	  {
+		"id": 8,
+		"name": "Hp Elitebook 1040",
+		"description": "Intel Core i5 4600U touch screen 2.30 GHz 8GBRam 256G SSD Windows 10 Pro 14 inch (35.56 cm) display",
+		"image_url": "https://images.punkapi.com/v2/keg.png",
+		"reviews": [
+		  "I used it it's very fast",
+		  "Mine was overheating"
+		]
+	  }
+	 
+	]
+  }
