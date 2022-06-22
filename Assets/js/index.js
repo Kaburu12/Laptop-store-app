@@ -8,4 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 				console.log(laptop.name)
 			});
 		})
+	
+
+
 })
