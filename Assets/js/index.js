@@ -41,24 +41,24 @@ function fetchLaptopData() {
 		})
 }
 
-// //like function
-// function like() {
-// 	const emptyHeart = '♡'
-// 	const fullHeart = '♥'
+//like function
+function like() {
+	const emptyHeart = '♡'
+	const fullHeart = '♥'
 
-// 	const likes = document.querySelectorAll('#like')
-// 	likes.forEach(like => {
-// 		like.addEventListener('click', () => {
-// 			if (like.innerText === fullHeart) {
-// 				like.classList.remove('activated-heart')
-// 				like.innerText = emptyHeart
-// 			} else {
-// 				like.innerText = fullHeart
-// 				like.classList.add('activated-heart')
-// 			}
-// 		})
-// 	})
-// }
+	const likes = document.querySelectorAll('#like')
+	likes.forEach(like => {
+		// like.addEventListener('click', () => {
+		// 	if (like.innerText === fullHeart) {
+		// 		like.classList.remove('activated-heart')
+		// 		like.innerText = emptyHeart
+		// 	} else {
+		// 		like.innerText = fullHeart
+		// 		like.classList.add('activated-heart')
+		// 	}
+		// })
+	})
+}
 
 // //adding reviews function
 // function newReviews() {
