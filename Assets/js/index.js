@@ -43,9 +43,10 @@ function fetchLaptopData() {
 
 //like function
 function like() {
+	//variables
 	const emptyHeart = '♡'
 	const fullHeart = '♥'
-
+//adding eventListener to like onclick
 	const likes = document.querySelectorAll('#like')
 	likes.forEach(like => {
 		like.addEventListener('click', () => {
@@ -60,9 +61,9 @@ function like() {
 	})
 }
 
-// //adding reviews function
-// function newReviews() {
-// 	const reviewForm = document.getElementById('review-form')
+//adding reviews function
+function newReviews() {
+	const reviewForm = document.getElementById('review-form')
 // reviewForm.addEventListener('submit',(e)=>{
 // 	e.preventDefault()
 // 	let newReview = document.getElementById("review").value
@@ -74,13 +75,13 @@ function like() {
 // 	reviewUpdate.style.paddingLeft="1.2rem"
 // 	reviewList.appendChild(reviewUpdate)
 // 	reviewForm.reset()
-// 	//deleting new added reviews onclick
-// 	reviewUpdate.addEventListener('click',(e)=>{
-// 		e.preventDefault()
-// 		reviewUpdate.remove()
-// 	})
+	//deleting new added reviews onclick
+	// reviewUpdate.addEventListener('click',(e)=>{
+	// 	e.preventDefault()
+	// 	reviewUpdate.remove()
+	// })
 // })
-// }
+}
 
 // //contact alert function
 // function contactAlert() {
