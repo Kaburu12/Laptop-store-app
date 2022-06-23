@@ -7,7 +7,7 @@ fetchLaptopData()
   
 // fetch laptop data function
 function fetchLaptopData() {
-	fetch("http://localhost:3000/laptops")
+	fetch("https://raw.githubusercontent.com/Kaburu12/live-server/master/db.json")
 		.then((response) => response.json())
 		.then((laptopData) => {
 			//display first laptop on screen
