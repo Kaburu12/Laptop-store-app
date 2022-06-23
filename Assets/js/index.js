@@ -48,15 +48,15 @@ function like() {
 
 	const likes = document.querySelectorAll('#like')
 	likes.forEach(like => {
-		// like.addEventListener('click', () => {
-		// 	if (like.innerText === fullHeart) {
-		// 		like.classList.remove('activated-heart')
-		// 		like.innerText = emptyHeart
-		// 	} else {
-		// 		like.innerText = fullHeart
-		// 		like.classList.add('activated-heart')
-		// 	}
-		// })
+		like.addEventListener('click', () => {
+			if (like.innerText === fullHeart) {
+				like.classList.remove('activated-heart')
+				like.innerText = emptyHeart
+			} else {
+				like.innerText = fullHeart
+				like.classList.add('activated-heart')
+			}
+		})
 	})
 }
 
