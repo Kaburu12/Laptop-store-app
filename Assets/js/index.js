@@ -86,7 +86,7 @@ reviewForm.addEventListener('submit',(e)=>{
 //contact alert function
 function contactAlert() {
 	let contact=document.getElementById("contact")
-	con.addEventListener("click", () => {
+	contact.addEventListener("click", () => {
 		alert(`${"Hello!!! , thank you for believing in us"}\n ${"Call ☎ : +254796225100"}`)
 		
 	})
