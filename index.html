@@ -16,7 +16,7 @@
 				<li id="logo">logo</li>
 				<li><a href="">Home</a> </li>
 				<li> <a href="">Available laptops</a> </li>
-				<li> <a href="">To Order Contact</a> </li>
+				<li  id="contact"> <a href="">To Order Contact</a> </li>
 			</ul>
 		</div>
 	</nav>
@@ -28,67 +28,22 @@
 	<main>
 		<h3>Available In Stock</h3>
 		<div id="image-container">
-			<div class="each-image">
-				<img id="images" src="./Assets/images/image1.jpg" alt="">
-                <h4>name</h4>
+			<div id="each-image">
+				<img id="images" src="" alt="">
+				<h4 id="laptop"></h4>
+				<div id="details">
 				<p class="descr"></p>
-				<ul></ul>
+				<h5></h5>
+				<p class="cust-review"> <span id="review1"> Laptop reviews: </span></p>
 				<p class="like">Like! <span id="like">&#x2661;</span></p>
-			</div>
-			<div class="each-image">
-				<img id="images" src="./Assets/images/image2.jpg" alt="">
-                <h4>name</h4>
-				<p class="descr"></p>
-				<ul></ul>
-				<p class="like">Like! <span id="like">&#x2661;</span></p>
-			</div>
-			<div class="each-image">
-				<img id="images" src="./Assets/images/image3.jpg" alt="">
-                <h4>name</h4>
-				<p class="descr"></p>
-				<ul></ul>
-				<p class="like">Like! <span id="like">&#x2661;</span></p>
-			</div>
-			<div class="each-image">
-				<img id="images" src="./Assets/images/image4.jpg" alt="">
-                <h4>name</h4>
-				<p class="descr"></p>
-				<ul></ul>
-				<p class="like">Like! <span id="like">&#x2661;</span></p>
-			</div>
-			<div class="each-image">
-				<img id="images" src="./Assets/images/image5.jpg" alt="">
-                <h4>name</h4>
-				<p class="descr"></p>
-				<ul></ul>
-				<p class="like">Like! <span id="like">&#x2661;</span></p>
-			</div>
-			<div class="each-image">
-				<img id="images" src="./Assets/images/image6.jpg" alt="">
-                <h4>name</h4>
-				<p class="descr"></p>
-				<ul></ul>
-				<p class="like">Like! <span id="like">&#x2661;</span></p>
-			</div>
-			<div class="each-image">
-				<img id="images" src="./Assets/images/image7.jpg" alt="">
-                <h4>name</h4>
-				<p class="descr"></p>
-				<ul></ul>
-				<p class="like">Like! <span id="like">&#x2661;</span></p>
-			</div>
-			<div class="each-image">
-				<img id="images" src="./Assets/images/image8.jpg" alt="">
-                <h4>name</h4>
-				<p class="descr"></p>
-				<ul></ul>
-				<p class="like">Like! <span id="like">&#x2661;</span></p>
+			</div> 
 			</div>
 		</div>
 		<form id="review-form">
 			<h3 id="review-head">Customer App Store Review</h3>
 			<label for="review">Your Review:</label>
 			<textarea id="review"></textarea>
+			<ul id="review-list"></ul>
 			<button type="submit">Submit</button>
 		  </form>
 	</main>

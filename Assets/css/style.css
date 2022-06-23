@@ -64,14 +64,33 @@ h3{
 	justify-content: space-around;
 }
 
+.descr{
+	text-align: center;
+}
+
 #images{
 	width:300px;
 	height: 300px;
 }
 
-div .each-image{
+div #each-image{
 	padding: 5px;
 	text-align: center;
+}
+
+.cust-review{
+	color:red;
+	display: flex;
+	flex-direction: column;
+}
+
+#review1{
+	background-color: #f5f6f4f3;
+	color: #000;
+	font-style: italic;
+	font-weight: 900px;
+	padding: 0.2rem;
+	margin-right: 0.2rem;
 }
 
 #like{
