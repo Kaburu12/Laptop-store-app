@@ -39,6 +39,9 @@ function fetchLaptopData() {
 				e.target.parentNode.remove()}
 				
 		})
+		.catch(()=>{
+			document.querySelector('body').innerHTML = 'Unauthorized Access'
+		})
 }
 
 //like function

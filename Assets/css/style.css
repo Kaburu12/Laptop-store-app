@@ -13,6 +13,11 @@ nav #nav-container{
 	display: flex;
 }
 
+#logo{
+	width: 130px;
+	height: auto;
+}
+
 .nav-list{
 	display: flex;
 	list-style: none;
@@ -23,6 +28,7 @@ div ul li a{
 	text-decoration: none;
 	color: #000;
 	font-weight: 900px;
+	font-size: 25px;
 }
 #logo{
 	padding-right: 100px;
@@ -137,6 +143,10 @@ form {
 	padding: 20px;
 	border-radius: 10px;
   }
+
+#review-list{
+	list-style-type: circle;
+}
 
   footer{
 	background-color:#f5f6f4f3;
