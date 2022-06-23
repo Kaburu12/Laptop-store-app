@@ -64,23 +64,23 @@ function like() {
 //adding reviews function
 function newReviews() {
 	const reviewForm = document.getElementById('review-form')
-// reviewForm.addEventListener('submit',(e)=>{
-// 	e.preventDefault()
-// 	let newReview = document.getElementById("review").value
-// 	let reviewUpdate = document.createElement('li')
-// 	reviewList=document.getElementById("review-list")
-// 	reviewUpdate.innerText = newReview
-// 	reviewUpdate.style.cursor = "pointer"
-// 	reviewUpdate.style.backgroundColor = "#f5f6f4f3"
-// 	reviewUpdate.style.paddingLeft="1.2rem"
-// 	reviewList.appendChild(reviewUpdate)
-// 	reviewForm.reset()
+reviewForm.addEventListener('submit',(e)=>{
+	e.preventDefault()
+	let newReview = document.getElementById("review").value
+	let reviewUpdate = document.createElement('li')
+	reviewList=document.getElementById("review-list")
+	reviewUpdate.innerText = newReview
+	reviewUpdate.style.cursor = "pointer"
+	reviewUpdate.style.backgroundColor = "#f5f6f4f3"
+	reviewUpdate.style.paddingLeft="1.2rem"
+	reviewList.appendChild(reviewUpdate)
+	reviewForm.reset()
 	//deleting new added reviews onclick
 	// reviewUpdate.addEventListener('click',(e)=>{
 	// 	e.preventDefault()
 	// 	reviewUpdate.remove()
 	// })
-// })
+})
 }
 
 // //contact alert function
