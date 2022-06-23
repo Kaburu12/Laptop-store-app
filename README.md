@@ -16,6 +16,9 @@ The project uses the HTML ,CSS and JAVA SCRIPT languages to program this site an
 4)run the local server (JSON server) by running $: "json-server --watch db.json"  in the terminal.
 5)Click on Go live .
 
+## live-Link
+https://kaburu12.github.io/moringa-school-website/
+
 ## Live-Video-Link Of The Project's Functionality
 https://drive.google.com/file/d/11LIxSKCuaLxX8uiS1gJpxyFhO5maaIT6/view?usp=sharing
 
