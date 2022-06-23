@@ -7,7 +7,7 @@ fetchLaptopData()
   
 // fetch laptop data function
 function fetchLaptopData() {
-	fetch( "https://raw.githubusercontent.com/Kaburu12/live-server/gh-pages/db.json")
+	fetch( "http://localhost:3000/laptops")
 		.then((response) => response.json())
 		.then((laptopData) => {
 			//display first laptop on screen
