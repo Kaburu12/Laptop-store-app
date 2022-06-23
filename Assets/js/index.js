@@ -76,10 +76,10 @@ reviewForm.addEventListener('submit',(e)=>{
 	reviewList.appendChild(reviewUpdate)
 	reviewForm.reset()
 	//deleting new added reviews onclick
-	// reviewUpdate.addEventListener('click',(e)=>{
-	// 	e.preventDefault()
-	// 	reviewUpdate.remove()
-	// })
+	reviewUpdate.addEventListener('click',(e)=>{
+		e.preventDefault()
+		reviewUpdate.remove()
+	})
 })
 }
 
