@@ -19,7 +19,7 @@ The project uses the HTML ,CSS and JAVA SCRIPT languages to program this site an
 ## Live-Video-Link Of The Project's Functionality
 
 ## Top Page Screenshot
-![image]()
+![image](./Assets/images/project-screenshot.png)
 
 ## Technology-Used
 HTML tags and elements -which was used to develope the structure of the pages. 
