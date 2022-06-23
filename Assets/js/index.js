@@ -25,14 +25,14 @@ function fetchLaptopData() {
 				review.textContent = laptopData[ 0 ].reviews
 				let price = document.querySelector("h5")
 				price.innerText=laptopData[0].price
-				// let details = document.getElementById("details")
-				// let btn = document.createElement("button")
-				// btn.textContent="clear"
-				// details.appendChild(btn)
-				// btn.style.backgroundColor = "orangered"
-				// btn.style.color = "white"
-				// btn.style.cursor="pointer"
-				// btn.addEventListener('click', clearDetails);
+				let details = document.getElementById("details")
+				let btn = document.createElement("button")
+				btn.textContent="clear"
+				details.appendChild(btn)
+				btn.style.backgroundColor = "orangered"
+				btn.style.color = "white"
+				btn.style.cursor="pointer"
+				btn.addEventListener('click', clearDetails);
 			})
 			//button function that clears the details
 			function clearDetails(e){
