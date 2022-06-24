@@ -17,7 +17,7 @@ The project uses the HTML ,CSS and JAVA SCRIPT languages to program this site an
 5)Click on Go live .
 
 ## live-Link
-https://kaburu12.github.io/moringa-school-website/
+https://kaburu12.github.io/Laptop-store-app/
 
 ## Live-Video-Link Of The Project's Functionality
 https://drive.google.com/file/d/11LIxSKCuaLxX8uiS1gJpxyFhO5maaIT6/view?usp=sharing
