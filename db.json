@@ -2,9 +2,10 @@
 	"laptops": [
 	  {
 		"id": 1,
-		"name": "Lenovo ThinkPad Yoga 260 Convertible",
+		"name": "Lenovo ThinkPad Yoga  260 Convertible",
 		"description": "Laptop / 12.5 inch IPS FHD Touchscreen (1920x1080), Core i5-6300U, 256GB SSD, 8GB ram, Win 10",
 		"price":"KSH.48,000/=",
+		"count":0,
 		"image_url": "https://zurimall.co.ke/wp-content/uploads/2021/08/Lenovo-Yoga-260-X360.jpg",
 		"reviews": [
 		  "very sleek machine!!"
@@ -16,6 +17,7 @@
 		"name": "Lenovo ThinkPad X131e Intel Core i3 ",
 		"description": "Lenovo ThinkPad X131e Intel Core i3  4GB DDR3 RAM, 320GB HDD 11.6 HD LED display ",
 		"price":"KSH.20,000/=",
+		"count":0,
 		"image_url": "https://skygarden.azureedge.net/media/products/1198610-904bb3eb86cb4ac7b4f44ff9ec33e610.jpg",
 		"reviews": [
 		  "Affordable/Powerful and Reliable!",
@@ -27,6 +29,7 @@
 		"name": "HP - Spectre x360 2-in-1 (10th Gen 2020 edition)",
 		"description": "core i7 ,gaming machine 16gb ram ,1TB HDD + 256SSD,",
 		"price":"KSH.150,000/=",
+		"count":0,
 		"image_url": "https://techbuyz.co.ke/wp-content/uploads/2021/07/Spectre-silver-1.jpg",
 		"reviews": [
 		  "I find this laptop very fast,sleek and efficient!"
@@ -37,6 +40,7 @@
 		"name": "HP OMEN X Gaming Laptop",
 		"description": "15 inch, 9th Gen intel core i7, 16gb ram, 256gb ssd 1tb hdd, 6gb dedicated Nvidia RTX 1050 Ti graphics, upto 3.5ghz, , Full hd(1080P) resolution, Keyboard backlight, Bang & Olufsen Speakers",
 		"price":"KSH.155,000/=",
+		"count":0,
 		"image_url": "https://www.phonestablets.co.ke/wp-content/uploads/2021/06/HP-Omen-17X-1.jpg",
 		"reviews": [
 		  "I've used it and this machine is a beast",
@@ -45,9 +49,10 @@
 	  },
 	  {
 		"id": 5,
-		"name": "Lenovo Yoga 11e",
+		"name": "Lenovo Yoga 11e 11.6inch Touchscreen",
 		"description": "11.6inch Touchscreen Convertible Ultrabook PC, Intel Quad Core Processor, 128GB Solid State Drive, 4GB DDR3 RAM, HD Webcam, LED, HDMI, Bluetooth, Windows 10 ",
 		"price":"KSH.22,000/=",
+		"count":0,
 		"image_url": "https://skygarden.azureedge.net/media/products/1366337-371d6affef344bad9956b05412ec2bf1.jpg",
 		"reviews": [
 		  "very portable",
@@ -56,9 +61,10 @@
 	  },
 	  {
 		"id": 6,
-		"name": "Hp elitebook 840 G2",
+		"name": "Hp elitebook 840 G2 ,intel Core i54cpu",
 		"description": "intel Core i5  (4cpu) 4GB RAM 500Gb HDD Backlit Keyboard Sim Slot ,Windows 10 pro + Basic softwares installed(Free)",
 		"price":"KSH.30,000/=",
+		"count":0,
 		"image_url": "https://support.hp.com/doc-images/930/c05263112.jpg",
 		"reviews": [
 		  "I used it ,it's stable",
@@ -67,9 +73,10 @@
 	  },
 	  {
 		"id": 7,
-		"name": "HP EliteBook x360 1030 G2 ",
+		"name": "HP EliteBook x360 1030 G2 Core i5-7Gen 2.5 GHz",
 		"description": "Multi-Touch 2-in-1 Intel Core i5-7200U 2.5 GHz  8GB 256GB SSD 13.3 FHD IPS Touchscreen,convertible ",
 		"price":"KSH.50,000/=",
+		"count":0,
 		"image_url": "https://mcphilipsdigital.co.ke/wp-content/uploads/2020/06/1499978004000_IMG_832714.jpg",
 		"reviews": [
 		  "The outlook is so shinny",
@@ -81,6 +88,7 @@
 		"name": "Hp Elitebook 1040 G2",
 		"description": "Intel Core i5 4600U touch screen 2.30 GHz 8GBRam 256G SSD Windows 10 Pro 14 inch (35.56 cm) display",
 		"price":"KSH.36,000/=",
+		"count":0,
 		"image_url": "https://cdn.mos.cms.futurecdn.net/noUvKUnFTMMEGvdcMPTJ9c-970-80.jpg",
 		"reviews": [
 		  "I used it it's very fast",

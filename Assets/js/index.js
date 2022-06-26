@@ -3,11 +3,13 @@ fetchLaptopData()
 	like()	
 	newReviews()
 	contactAlert()
+	laptopList()
+	mainSection()
 })
-  
+
 // fetch laptop data function
 function fetchLaptopData() {
-	fetch("https://kaburu12.github.io/live-server/db.json")
+	fetch( "https://kaburu12.github.io/live-server/db.json")
 		.then((response) => response.json())
 		.then((laptopData) => {
 			//display first laptop on screen
@@ -15,7 +17,8 @@ function fetchLaptopData() {
 				lapName.textContent = laptopData[0].name
 				let image_url = document.querySelector("#images")
 			image_url.src = laptopData[ 0 ].image_url
-			lapName.style.cursor = "pointer"
+            lapName.style.cursor = "pointer"	
+			
 		//onclick on the laptop name, it displays more details	
 			lapName.addEventListener("click", (e) => {
 				e.preventDefault()
@@ -26,6 +29,8 @@ function fetchLaptopData() {
 				let price = document.querySelector("h5")
 				price.innerText=laptopData[0].price
 				let details = document.getElementById("details")
+				let likesCount = document.querySelector("h6")
+				likesCount.textContent=laptopData[0].count
 				let btn = document.createElement("button")
 				btn.textContent="clear"
 				details.appendChild(btn)
@@ -36,12 +41,16 @@ function fetchLaptopData() {
 			})
 			//button function that clears the details
 			function clearDetails(e){
-				e.target.parentNode.remove()}
-				
+				e.target.parentNode.remove()
+			}
+			
+		
 		})
 		.catch(()=>{
 			document.querySelector('body').innerHTML = 'Unauthorized Access'
 		})
+	
+	
 }
 
 //like function
@@ -93,4 +102,21 @@ function contactAlert() {
 		alert(`${"Hello!!! , thank you for believing in us"}\n ${"Call ☎ : +254796225100"}`)
 		
 	})
+}
+
+  //Navlist display of laptop list
+function laptopList() {
+	fetch("http://localhost:3000/laptops")
+		.then((res) => res.json())
+		.then((lapData) => {
+			let data1 = "";
+			lapData.map((values) => {
+				data1 += `	<ul id="laptop-list">
+				<li>${values.name}</li>
+				<img width="90px" height="90px" src="${values.image_url}" alt="">
+				<h5>${values.price}</h5>
+			</ul>`
+			})
+			document.querySelector("#list-container").innerHTML = data1;
+		})
 }
