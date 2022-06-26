@@ -106,7 +106,7 @@ function contactAlert() {
 
   //Navlist display of laptop list
 function laptopList() {
-	fetch("http://localhost:3000/laptops")
+	fetch( "https://kaburu12.github.io/live-server/db.json")
 		.then((res) => res.json())
 		.then((lapData) => {
 			let data1 = "";

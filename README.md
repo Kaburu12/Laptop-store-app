@@ -20,10 +20,10 @@ The project uses the HTML ,CSS and JAVA SCRIPT languages to program this site an
 https://kaburu12.github.io/Laptop-store-app/
 
 ## Live-Video-Link Of The Project's Functionality
-https://drive.google.com/file/d/11LIxSKCuaLxX8uiS1gJpxyFhO5maaIT6/view?usp=sharing
+https://drive.google.com/file/d/1UYHeGDh2RsSpqhsoJJ76NTIi7IFXPLYk/view?usp=sharing
 
 ## Top Page Screenshot
-![image](./Assets/images/project-screenshot.png)
+![image](./Assets/images/laptop-store-screenshot.png)
 
 ## Technology-Used
 HTML tags and elements -which was used to develope the structure of the pages. 
