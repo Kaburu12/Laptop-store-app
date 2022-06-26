@@ -13,8 +13,7 @@ The project uses the HTML ,CSS and JAVA SCRIPT languages to program this site an
 1)Installation of the Visual studio code .
 2)Git cloning the repository .
 3)Make sure the live server extension is installed .
-4)run the local server (JSON server) by running $: "json-server --watch db.json"  in the terminal.
-5)Click on Go live .
+4)Click on Go live .
 
 ## live-Link
 https://kaburu12.github.io/Laptop-store-app/
